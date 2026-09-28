@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ec">
+  <meta name="description" content="Good coffee, honest food, and a little room to slow down. Find your table at Morrow & Moss, your neighbourhood café in Northcote.">
+  <title>Morrow & Moss — A neighbourhood café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Morrow and Moss home">
+      <span class="wordmark-mark" aria-hidden="true">m.</span>
+      <span class="wordmark-name">morrow <i>&</i> moss</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#story">Our place</a>
+      <a href="#menu">The menu</a>
+      <a href="#visit">Find us</a>
+      <a class="nav-cta" href="#enquire">Save a seat <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Your neighbourhood, a little slower</p>
+        <h1 id="hero-title">A good day<br>starts <em>right here.</em></h1>
+        <p class="hero-intro">Coffee worth lingering over. Seasonal plates made with care. And always, room for one more.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#visit">Come on in <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note">
+          <span class="note-spark" aria-hidden="true">✳</span>
+          <p><strong>Open every day</strong><br>For your first coffee or last-minute lunch.</p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1500&q=85" alt="Freshly brewed coffee poured in a sunlit café">
+        <div class="image-caption"><span>Slow mornings, made daily</span><span>Northcote · Est. 2018</span></div>
+        <div class="hero-stamp" aria-label="Made with care, served with love">
+          <span class="stamp-top">MADE WITH CARE</span>
+          <span class="stamp-flower" aria-hidden="true">✳</span>
+          <span class="stamp-bottom">SERVED WITH LOVE</span>
+        </div>
+      </div>
+      <span class="hero-index" aria-hidden="true">01 — 04</span>
+    </section>
+
+    <section class="ticker" aria-label="What we believe">
+      <div class="ticker-track">
+        <span>Good coffee</span><span class="ticker-star">✳</span><span>Good company</span><span class="ticker-star">✳</span><span>Good things, made slowly</span><span class="ticker-star">✳</span><span>Good coffee</span><span class="ticker-star">✳</span><span>Good company</span><span class="ticker-star">✳</span><span>Good things, made slowly</span><span class="ticker-star">✳</span>
+      </div>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="section-kicker"><span>01</span><span class="kicker-rule"></span><span>A little about us</span></div>
+      <div class="story-grid">
+        <div class="story-heading">
+          <p class="eyebrow">A familiar kind of feeling</p>
+          <h2>Not just a coffee.<br><em>A place to land.</em></h2>
+        </div>
+        <div class="story-body">
+          <p class="story-lead">Some places just feel like yours. We made Morrow & Moss to be one of them.</p>
+          <p>A neighbourhood table for unhurried breakfasts, very good coffee, and the lovely in-between bits of the day. Our kitchen follows the seasons; our coffee comes from people who care as much about the bean as we do. Nothing fussy. Just thoughtful, everyday goodness.</p>
+          <a class="text-link" href="#visit">A little more about our place <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="story-images">
+        <figure class="story-image story-image-main">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85" alt="A barista preparing coffee at the counter">
+          <figcaption>Made fresh, every single morning.</figcaption>
+        </figure>
+        <figure class="story-image story-image-side">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=85" alt="A colourful seasonal brunch made with fresh ingredients">
+          <figcaption>Good things from good growers.</figcaption>
+        </figure>
+        <div class="story-sticker"><span>Come as<br>you are</span><span aria-hidden="true">✳</span></div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-kicker"><span>02</span><span class="kicker-rule"></span><span>Made here, with love</span></div>
+      <div class="menu-heading">
+        <div>
+          <p class="eyebrow">A few of our favourites</p>
+          <h2>Good things<br><em>on the table.</em></h2>
+        </div>
+        <p class="menu-intro">A little something for every kind of morning. Our menu changes with the seasons, but the good stuff stays.</p>
+      </div>
+      <div class="menu-tabs" role="group" aria-label="Filter menu by category">
+        <button class="menu-tab is-active" type="button" data-category="all" aria-pressed="true">A little of everything</button>
+        <button class="menu-tab" type="button" data-category="coffee" aria-pressed="false">Coffee & things</button>
+        <button class="menu-tab" type="button" data-category="brunch" aria-pressed="false">Brunch & lunch</button>
+        <button class="menu-tab" type="button" data-category="sweet" aria-pressed="false">Something sweet</button>
+      </div>
+      <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+      <p class="menu-footnote">A note: our menu is seasonal and can change. Please let us know about any dietary needs when you visit.</p>
+    </section>
+
+    <section class="quote-band" aria-label="Our philosophy">
+      <span class="quote-mark" aria-hidden="true">“</span>
+      <blockquote>Stay a little longer.<br><em>That’s kind of the point.</em></blockquote>
+      <span class="quote-credit">— The Morrow & Moss way</span>
+      <span class="quote-sun" aria-hidden="true">✳</span>
+    </section>
+
+    <section class="visit-section section-pad" id="visit">
+      <div class="section-kicker"><span>03</span><span class="kicker-rule"></span><span>Just around the corner</span></div>
+      <div class="visit-grid">
+        <div class="visit-copy">
+          <p class="eyebrow">There’s a spot for you</p>
+          <h2>Find your<br><em>way to us.</em></h2>
+          <p class="visit-intro">A friendly little corner of Northcote. Follow the smell of fresh coffee — you can’t miss us.</p>
+          <a class="address-link" href="https://maps.google.com/?q=27+Willow+Lane+Northcote+VIC+3070" target="_blank" rel="noreferrer">
+            <span class="address-icon" aria-hidden="true">↗</span>
+            <span><strong>27 Willow Lane</strong><br>Northcote VIC 3070, Australia</span>
+          </a>
+          <div class="hours">
+            <h3>Come by when we’re here</h3>
+            <dl>
+              <div><dt>Monday – Friday</dt><dd>7:00 am – 3:00 pm</dd></div>
+              <div><dt>Saturday – Sunday</dt><dd>8:00 am – 3:30 pm</dd></div>
+              <div><dt>Public holidays</dt><dd>8:00 am – 2:00 pm</dd></div>
+            </dl>
+            <p class="hours-note"><span class="open-dot" aria-hidden="true"></span> Kitchen closes 30 minutes before we do.</p>
+          </div>
+        </div>
+        <div class="visit-photo">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1300&q=85" alt="A welcoming neighbourhood café with warm light and wooden tables">
+          <div class="photo-label"><span>27 Willow Lane</span><span>Northcote, VIC</span></div>
+          <span class="photo-asterisk" aria-hidden="true">✳</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="enquire-section section-pad" id="enquire">
+      <div class="section-kicker"><span>04</span><span class="kicker-rule"></span><span>Make a little plan</span></div>
+      <div class="enquire-grid">
+        <div class="enquire-copy">
+          <p class="eyebrow">A table with your name on it</p>
+          <h2>Save a<br><em>little space.</em></h2>
+          <p>Getting the gang together? Send us an enquiry and we’ll be in touch to confirm. Walk-ins are always welcome, too.</p>
+          <div class="enquire-aside"><span aria-hidden="true">✳</span><p>Just so you know, this form sends a <strong>reservation enquiry</strong> — we’ll confirm your table by email. No payment, no fuss.</p></div>
+        </div>
+        <form class="enquiry-form" id="enquiry-form">
+          <div class="form-row">
+            <label class="field"><span>Your name</span><input name="name" autocomplete="name" placeholder="The name we’ll look for" required></label>
+            <label class="field"><span>Email address</span><input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+          </div>
+          <div class="form-row">
+            <label class="field"><span>What are we planning?</span>
+              <select name="enquiryType" required>
+                <option value="reservation">A table reservation</option>
+                <option value="group">A group or special occasion</option>
+                <option value="menu">A menu or dietary question</option>
+              </select>
+            </label>
+            <label class="field"><span>How many joining?</span>
+              <select name="guests">
+                <option>1–2 people</option><option>3–4 people</option><option>5–6 people</option><option>7+ people</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row">
+            <label class="field"><span>Preferred date</span><input type="date" name="date"></label>
+            <label class="field"><span>Preferred time</span>
+              <select name="time">
+                <option value="">No preference</option><option>7:00 am – 9:00 am</option><option>9:00 am – 11:00 am</option><option>11:00 am – 1:00 pm</option><option>1:00 pm – 3:00 pm</option>
+              </select>
+            </label>
+          </div>
+          <label class="field"><span>A little more (optional)</span><textarea name="message" rows="3" placeholder="Dietary needs, a birthday, or anything else we should know…"></textarea></label>
+          <button class="button button-dark form-submit" type="submit">Send an enquiry <span aria-hidden="true">↗</span></button>
+          <p class="form-privacy">This is a demo enquiry form. Your details stay in this browser and no message is sent.</p>
+          <div class="form-success" id="form-success" role="status" tabindex="-1" hidden>
+            <span class="success-flower" aria-hidden="true">✳</span>
+            <div><strong>Lovely — your enquiry is ready.</strong><p>Thanks, <span id="success-name"></span>. In a live café site, the team would follow up to confirm your request.</p></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="#home">
+      <span class="wordmark-mark" aria-hidden="true">m.</span>
+      <span class="wordmark-name">morrow <i>&</i> moss</span>
+    </a>
+    <p>Good things, made slowly. <span aria-hidden="true">✳</span> Northcote, Australia</p>
+    <div class="footer-meta"><a href="#visit">Hours & location</a><span>© 2025 Morrow & Moss</span></div>
+  </footer>
+</body>
+</html>
