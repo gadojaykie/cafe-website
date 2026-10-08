@@ -130,6 +130,7 @@ h1 em, h2 em { color: var(--green); font-weight: 500; }
 .address-link { display: inline-flex; align-items: center; gap: 13px; text-decoration: none; font-size: 10px; line-height: 1.8; }
 .address-link strong { font-size: 11px; }
 .address-icon { width: 31px; height: 31px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--orange); font-size: 14px; }
+.business-details-note { max-width: 330px; margin: 12px 0 0 44px; color: var(--muted); font-size: 9px; line-height: 1.65; }
 .hours { max-width: 360px; margin-top: 34px; padding-top: 21px; border-top: 1px solid var(--line); }
 .hours h3 { margin: 0 0 13px; font-family: var(--serif); font-size: 17px; font-weight: 500; }
 .hours dl { margin: 0; }

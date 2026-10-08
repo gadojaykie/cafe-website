@@ -2,7 +2,7 @@ const menuItems = [
   {
     name: "House flat white",
     description: "Our seasonal espresso, a little silky milk, and a moment to yourself.",
-    price: "$5.50",
+    price: "A$5.50",
     category: "coffee",
     tag: "A daily favourite",
     image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80",
@@ -11,7 +11,7 @@ const menuItems = [
   {
     name: "Cold brew & tonic",
     description: "Slow-steeped coffee, bright citrus tonic, a sprig of rosemary.",
-    price: "$7.00",
+    price: "A$7.00",
     category: "coffee",
     tag: "Bright & refreshing",
     image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=80",
@@ -20,7 +20,7 @@ const menuItems = [
   {
     name: "Green garden toast",
     description: "Whipped ricotta, market greens, lemon oil on thick-cut sourdough.",
-    price: "$18.00",
+    price: "A$18.00",
     category: "brunch",
     tag: "Seasonal & lovely",
     image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=700&q=80",
@@ -29,7 +29,7 @@ const menuItems = [
   {
     name: "The long-table eggs",
     description: "Two free-range eggs, brown butter greens, sourdough for the yolk.",
-    price: "$21.00",
+    price: "A$21.00",
     category: "brunch",
     tag: "A proper breakfast",
     image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=700&q=80",
@@ -38,7 +38,7 @@ const menuItems = [
   {
     name: "Citrus & olive oil cake",
     description: "Soft, fragrant, and best with a little dollop of crème fraîche.",
-    price: "$9.00",
+    price: "A$9.00",
     category: "sweet",
     tag: "Baked here today",
     image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=80",
@@ -47,7 +47,7 @@ const menuItems = [
   {
     name: "Brown butter cookie",
     description: "A crisp edge, a soft middle, and a very generous amount of chocolate.",
-    price: "$6.00",
+    price: "A$6.00",
     category: "sweet",
     tag: "Little afternoon treat",
     image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=80",
@@ -87,6 +87,7 @@ menuTabs.forEach((tab) => {
 });
 
 renderMenu();
+document.querySelector("#copyright-year").textContent = new Date().getFullYear();
 
 const navToggle = document.querySelector(".nav-toggle");
 const siteNav = document.querySelector("#site-nav");

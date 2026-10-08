@@ -1,10 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-AU">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3ec">
-  <meta name="description" content="Good coffee, honest food, and a little room to slow down. Find your table at Morrow & Moss, your neighbourhood café in Northcote.">
+  <meta name="description" content="Good coffee, honest food, and a little room to slow down. Find your table at Morrow & Moss, your neighbourhood café in Northcote, Australia.">
+  <meta property="og:locale" content="en_AU">
+  <meta name="geo.region" content="AU-VIC">
   <title>Morrow & Moss — A neighbourhood café</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -106,7 +108,7 @@
         <button class="menu-tab" type="button" data-category="sweet" aria-pressed="false">Something sweet</button>
       </div>
       <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
-      <p class="menu-footnote">A note: our menu is seasonal and can change. Please let us know about any dietary needs when you visit.</p>
+      <p class="menu-footnote">Menu prices are in Australian dollars (AUD). Our menu is seasonal and can change; please let us know about any dietary needs when you visit.</p>
     </section>
 
     <section class="quote-band" aria-label="Our philosophy">
@@ -127,6 +129,7 @@
             <span class="address-icon" aria-hidden="true">↗</span>
             <span><strong>27 Willow Lane</strong><br>Northcote VIC 3070, Australia</span>
           </a>
+          <p class="business-details-note">This is a sample Northcote café address. Replace it with your business’s real address, hours and menu before publishing.</p>
           <div class="hours">
             <h3>Come by when we’re here</h3>
             <dl>
@@ -157,7 +160,7 @@
         <form class="enquiry-form" id="enquiry-form">
           <div class="form-row">
             <label class="field"><span>Your name</span><input name="name" autocomplete="name" placeholder="The name we’ll look for" required></label>
-            <label class="field"><span>Email address</span><input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+            <label class="field"><span>Email address</span><input name="email" type="email" autocomplete="email" placeholder="you@example.com.au" required></label>
           </div>
           <div class="form-row">
             <label class="field"><span>What are we planning?</span>
@@ -181,9 +184,10 @@
               </select>
             </label>
           </div>
+          <label class="field"><span>Mobile number (optional)</span><input name="phone" type="tel" autocomplete="tel-national" inputmode="tel" placeholder="04xx xxx xxx"></label>
           <label class="field"><span>A little more (optional)</span><textarea name="message" rows="3" placeholder="Dietary needs, a birthday, or anything else we should know…"></textarea></label>
           <button class="button button-dark form-submit" type="submit">Send an enquiry <span aria-hidden="true">↗</span></button>
-          <p class="form-privacy">This is a demo enquiry form. Your details stay in this browser and no message is sent.</p>
+          <p class="form-privacy">This demo form doesn’t send or store your details. Connect it to your business before accepting enquiries.</p>
           <div class="form-success" id="form-success" role="status" tabindex="-1" hidden>
             <span class="success-flower" aria-hidden="true">✳</span>
             <div><strong>Lovely — your enquiry is ready.</strong><p>Thanks, <span id="success-name"></span>. In a live café site, the team would follow up to confirm your request.</p></div>
@@ -198,8 +202,8 @@
       <span class="wordmark-mark" aria-hidden="true">m.</span>
       <span class="wordmark-name">morrow <i>&</i> moss</span>
     </a>
-    <p>Good things, made slowly. <span aria-hidden="true">✳</span> Northcote, Australia</p>
-    <div class="footer-meta"><a href="#visit">Hours & location</a><span>© 2025 Morrow & Moss</span></div>
+    <p>Good things, made slowly. <span aria-hidden="true">✳</span> Northcote, Victoria, Australia</p>
+    <div class="footer-meta"><a href="#visit">Hours & location</a><span>© <span id="copyright-year"></span> Morrow & Moss</span></div>
   </footer>
 </body>
 </html>
